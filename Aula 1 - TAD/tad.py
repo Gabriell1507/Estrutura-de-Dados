@@ -1,3 +1,4 @@
+# Definição da classe Ponto
 class Ponto:
     def __init__(self, x, y):
         self.x = x
@@ -6,6 +7,7 @@ class Ponto:
     def __str__(self):
         return f'({self.x}, {self.y})'
 
+# Definição da classe Reta
 class Reta:
     def __init__(self, ponto1, ponto2):
         self.ponto1 = ponto1
@@ -14,6 +16,7 @@ class Reta:
     def __str__(self):
         return f'Reta de {self.ponto1} para {self.ponto2}'
 
+# Definição da classe PolinomioGrau2
 class PolinomioGrau2:
     def __init__(self, a, b, c):
         self.a = a
@@ -25,6 +28,7 @@ class PolinomioGrau2:
 
     def __str__(self):
         return f'{self.a}x^2 + {self.b}x + {self.c}'
+
 
 # Exemplo de uso das classes:
 ponto1 = Ponto(1, 2)
