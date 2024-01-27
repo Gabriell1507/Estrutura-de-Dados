@@ -6,8 +6,8 @@ pygame.init()
 
 # Definição de cores
 white = (255, 255, 255)
-black = (0, 0, 0)
-red = (0, 255, 255)
+black = (255, 255, 255)
+red = (128, 128, 128)
 blue = (255, 0, 0)
 
 # Configurações da tela
@@ -18,7 +18,7 @@ pygame.display.set_caption('Jogo da cobrinha feito por Sacola Development Team')
 
 # Configurações do jogo
 snake_block = 20
-snake_speed = 15
+snake_speed = 12
 
 # Definição da fonte e tamanho do texto
 font_style = pygame.font.SysFont(None, 30)
